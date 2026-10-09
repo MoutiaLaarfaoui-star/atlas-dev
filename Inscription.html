@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>atlas-dev-days</title>
      <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/.png" href="imges/Typographic_Geometric_Monogram_Professional_Modern_Logo__3_-removebg-preview.png">
 </head>
 <body>
     <header class="head">
@@ -33,14 +34,41 @@
 <nav>
     <div class="input-group">
         <h1>Sing Up</h1>
-        <input type="email" placeholder="Email address..." class="modern-input">
+        <input type="email" placeholder="Email address..." class="modern-input" required>
         
-        <input type="tel" placeholder="phone number +212 0600000000" class="modern-input">
-        <select name="profil" id="profil" class="modern-input">
+        <input type="tel" placeholder="phone number +212 0600000000" class="modern-input" required>
+        <select name="profil" id="profil" class="modern-input" required>
           <option value="">Étudiant</option>
           <option value="">Développeur</option>
           <option value="">Autre</option>
         </select>
+        <div class="checkbox">
+          <label for="">AI  <input type="checkbox" ></label>
+          <label for="">Backend  <input type="checkbox" ></label>
+          <label for="">frontend  <input type="checkbox" ></label>
+          <label for="">UI/UX  <input type="checkbox"></label>
+        </div>
+        <div class="checkbox">
+            <input type="radio" id="option1" name="my_choice" value="1" required>
+            <label for="option1">jour 1</label>
+
+            <input type="radio" id="option2" name="my_choice" value="2" required>
+            <label for="option2">jour 2</label>
+
+            <input type="radio" id="option3" name="my_choice" value="3" required>
+            <label for="option3">les deux jour</label>
+        </div>
+      <form class="msg">
+ 
+  <label for="message">Message :</label><br>
+  <textarea id="message" name="message" rows="4" cols="50" placeholder="Écrivez votre message ici..."></textarea>
+  <br><br>
+
+    
+    <input type="checkbox" id="consent" name="consent" required>
+     <label for="consent">   J'accepte les conditions générales et la politique de confidentialité</label>
+     <br><br>
+   </form>
           
         <button>Inscription</button>
     </div>
