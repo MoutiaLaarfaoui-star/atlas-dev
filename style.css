@@ -62,7 +62,7 @@ body {
 
 
 body {
-  background-image: url('imges/1046781.jpg');
+  background-image: url('imges/Untitled\ design.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -467,7 +467,7 @@ body {
 
 body {
     background-color: #f4f6f9;
-    background-image: url('imges/1046781.jpg');
+    background-image: url('imges/Untitled\ design.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -550,7 +550,7 @@ body {
    3. HERO & PROGRAMME SECTIONS (Fixed Large Margins)
    ========================================================= */
 .Accueil h1 {
-    color: #EFBF04;
+    color: #87ceeb;
     text-align: center;
     margin-top: 60px;
     font-size: clamp(2.5rem, 6vw, 5rem); /* Scales smoothly across screens */
@@ -607,7 +607,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: clamp(2rem, 5vw, 4.5rem);
-    color: #EFBF04;
+    color: #87ceeb;
     margin-top: 40px;
 }
 
@@ -724,7 +724,7 @@ body {
 .footer-logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #EFBF04;
+    color: #87ceeb;
     margin-bottom: 0.5rem;
 }
 
